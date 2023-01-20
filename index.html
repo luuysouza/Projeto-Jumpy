@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Jumpy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="assets/logoDNC.svg" alt="logoDNC" id="logo">
+    </header>
+    <main>
+        <img src="assets/jumpyLogo.svg" alt="logoJumpy" id="jumpyLogo">
+        <h2>Bem vindo ao Jumpy!</h2>
+        <form id="form">
+            <label class="label">Nome Completo:</label>
+            <input class="input" type="text" placeholder="Nome Completo" id="nome" oninput="nameValidate()">
+            <p class="error"></p>
+
+            <label class="label">Email:</label>
+            <input class="input " type="email" placeholder="email@email.com" id="email" oninput="emailValidate()">
+            <p class="error"></p>
+            
+            <label class="label">Telefone:</label>
+            <input class="input" type="tel" placeholder="(00) 00000-0000" id="tel" oninput="telValidate()">
+            <p class="error"></p>
+            
+            <label class="label">CPF:</label>
+            <input class="input" type="number" placeholder="000.000.000-00" id="cpf" oninput="cpfValidate()">
+            <p class="error"></p>
+            
+            <label class="label">Senha:</label>
+            <input class="input" type="password" placeholder="********" id="senha" oninput="senhaValidate()">
+            <p class="error"></p>
+
+            <button type="submit" id="sendForm">Cadastrar</button>
+            <p class="success"></p>
+
+        </form>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

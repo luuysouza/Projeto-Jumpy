@@ -1,0 +1,73 @@
+body{
+    background-color: #1E1E1E;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+img#logo{
+    margin: 30px 0px 0px 30px;
+    width: 120px;
+}
+
+img#jumpyLogo{
+    width: 300px;
+}
+
+main{
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+}
+
+form{
+    display: grid;
+    width: 550px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 5px;
+    text-align: right;
+
+    color: #E73550;
+
+}
+.input{
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    margin: 10px 0px 10px 0px;
+    padding-left: 20px;
+    outline: 0;
+}
+
+button{
+    background-color: #0C70F2;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+button:hover{
+    scale:calc(1.01);
+    background-color: #0c83f2;;
+}
